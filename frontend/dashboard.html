@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Insurance Management System</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Header -->
+
+    <header class="dashboard-header">
+
+        <div>
+
+            <h1>🛡️ Insurance Management System</h1>
+
+            <p>Welcome back! Manage your insurance policies efficiently.</p>
+
+        </div>
+
+        <button id="logoutBtn" class="logout-btn">
+
+            Logout
+
+        </button>
+
+    </header>
+
+    <!-- Title -->
+
+    <div class="section-title">
+
+        <h2>Dashboard Overview</h2>
+
+        <p>Monitor users and insurance policies.</p>
+
+    </div>
+
+    <!-- Cards -->
+
+    <div class="stats-container">
+
+        <div class="card">
+
+            <span class="card-icon">👥</span>
+
+            <h4>Total Users</h4>
+
+            <h1 id="totalUsers">0</h1>
+
+        </div>
+
+        <div class="card">
+
+            <span class="card-icon">📄</span>
+
+            <h4>Total Policies</h4>
+
+            <h1 id="totalPolicies">0</h1>
+
+        </div>
+
+    </div>
+
+    <!-- Quick Actions -->
+
+    <div class="quick-actions">
+
+        <h2>Quick Actions</h2>
+
+        <div class="action-buttons">
+
+            <button id="addPolicyBtn">
+
+                ➕ Add Policy
+
+            </button>
+
+            <button id="viewPolicyBtn">
+
+                📋 View Policies
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="./js/dashboard.js"></script>
+
+</body>
+
+</html>
